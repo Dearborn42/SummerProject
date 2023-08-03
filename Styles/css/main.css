@@ -2,12 +2,10 @@ nav {
   background-color: #42B983;
   height: 10vh;
 }
-
-a {
+nav a {
   text-decoration: none;
 }
-
-button {
+nav button {
   background-color: #F08A5D;
   border: 2px solid #000;
   border-radius: 10px;
@@ -15,6 +13,24 @@ button {
   height: 50%;
   margin-top: 2.5vh;
 }
-button:hover {
+nav button:hover {
   border-color: #b54b1d;
+}
+
+.main-container {
+  height: 90vh;
+}
+.main-container .card-margin {
+  margin-top: 10vh;
+}
+.main-container .card-body {
+  border-top: 2px solid #000;
+}
+.main-container .card {
+  border: 2px solid #42B983;
+  background-color: #42B983;
+}
+
+.inverted {
+  filter: invert(1);
 }/*# sourceMappingURL=main.css.map */

@@ -1,1 +1,5 @@
-@import "./nav.scss"
+@import "./nav.scss", "./main-container.scss";
+
+.inverted {
+    filter: invert(1);
+}
