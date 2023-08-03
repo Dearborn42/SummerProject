@@ -10,4 +10,12 @@
 .main-container .card {
   border: 2px solid #42B983;
   background-color: #42B983;
+}
+.main-container .fg-pics, .main-container .fbla-pics {
+  background-color: #42B983;
+  margin-top: 10vh;
+}
+.main-container .fg-desc, .main-container .fbla-desc {
+  margin-top: 10vh;
+  background-color: #42B983;
 }/*# sourceMappingURL=main-container.css.map */
