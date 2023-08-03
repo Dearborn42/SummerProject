@@ -18,14 +18,34 @@
     <nav class="w-100 nav d-flex justify-content-around">
         <div class="w-50 h-100"></div>
         <div class="w-25 h-100 d-flex justify-content-between">
-            <a href="../index.html"><button>Home</button></a>
+            <a href="./index.html"><button>Home</button></a>
             <a href="./fg.html"><button>Five Guys</button></a>
             <a href="./fbla.html"><button>FBLA Nationals</button></a>
         </div>
     </nav>
     <div class="w-100 main-container d-flex justify-content-around">
         <div class="w-50 h-75 fbla-pics">
-            <img src="../placeholder-image3.png" alt="">
+            <div id="carouselExample" class="carousel slide w-100 h-100">
+                <div class="carousel-inner w-100 h-100">
+                    <div class="carousel-item active">
+                        <img src="../placeholder-image.png" class="w-100 h-100" alt="...">
+                    </div>
+                    <div class="carousel-item card-img-top">
+                        <img src="../placeholder-image2.png" class="w-100 h-100" alt="...">
+                    </div>
+                    <div class="carousel-item card-img-top">
+                        <img src="../placeholder-image3.png" class="w-100 h-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev inverted" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next inverted" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
         </div>
         <div class="w-25 h-75 fbla-desc">
             <p>This is a place holder</p>
