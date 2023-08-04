@@ -16,21 +16,31 @@
     .fg-pics, .fbla-pics{
         background-color: #FFD6AF;
         margin-top: 10vh;
+        height: 75%;
+        width: 50%;
     }
     .fg-desc, .fbla-desc{
         margin-top: 10vh;
         background-color: #FFD6AF;
+        height: 75%;
+        width: 25%;
     }
 }
 
 @media (max-width: 772px) {
     .main-container{
+        flex-direction: column;
         .card-margin {
-            margin-top: auto;
-            margin-bottom: auto;
+            margin:auto
         }
         .card{
             width:75%
+        }
+        .fg-pics, .fbla-pics,.fg-desc, .fbla-desc {
+            margin: auto;
+            gap: 10px;
+            height: 40%;
+            width: 75%;
         }
     }
 }
