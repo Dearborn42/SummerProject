@@ -5,21 +5,21 @@
   margin-top: 10vh;
 }
 .main-container .card-body {
-  border-top: 2px solid #000;
+  border-top: 2px solid #808782;
 }
 .main-container .card {
   width: 50%;
-  border: 2px solid #42B983;
-  background-color: #42B983;
+  border: 2px solid #FFD6AF;
+  background-color: #FFD6AF;
   height: 75%;
 }
 .main-container .fg-pics, .main-container .fbla-pics {
-  background-color: #42B983;
+  background-color: #FFD6AF;
   margin-top: 10vh;
 }
 .main-container .fg-desc, .main-container .fbla-desc {
   margin-top: 10vh;
-  background-color: #42B983;
+  background-color: #FFD6AF;
 }
 
 @media (max-width: 772px) {

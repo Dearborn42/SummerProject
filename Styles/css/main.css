@@ -1,19 +1,21 @@
 nav {
-  background-color: #42B983;
+  background-color: #656565;
   height: 10vh;
 }
 nav a {
   text-decoration: none;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 nav button {
-  background-color: #F08A5D;
-  border: 3px solid #000;
+  background-color: #808782;
+  border: 3px solid #808782;
   border-radius: 10px;
   width: 100%;
-  height: 100%;
+  height: 80%;
 }
 nav button:hover {
-  border-color: #b54b1d;
+  border-color: #000;
 }
 
 .main-container {
@@ -23,21 +25,21 @@ nav button:hover {
   margin-top: 10vh;
 }
 .main-container .card-body {
-  border-top: 2px solid #000;
+  border-top: 2px solid #808782;
 }
 .main-container .card {
   width: 50%;
-  border: 2px solid #42B983;
-  background-color: #42B983;
+  border: 2px solid #FFD6AF;
+  background-color: #FFD6AF;
   height: 75%;
 }
 .main-container .fg-pics, .main-container .fbla-pics {
-  background-color: #42B983;
+  background-color: #FFD6AF;
   margin-top: 10vh;
 }
 .main-container .fg-desc, .main-container .fbla-desc {
   margin-top: 10vh;
-  background-color: #42B983;
+  background-color: #FFD6AF;
 }
 
 @media (max-width: 772px) {
@@ -57,4 +59,8 @@ nav button:hover {
 }
 .inverted {
   filter: invert(1);
+}
+
+body {
+  background-color: #808782;
 }/*# sourceMappingURL=main.css.map */
