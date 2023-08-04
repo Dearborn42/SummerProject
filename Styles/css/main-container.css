@@ -8,8 +8,10 @@
   border-top: 2px solid #000;
 }
 .main-container .card {
+  width: 50%;
   border: 2px solid #42B983;
   background-color: #42B983;
+  height: 75%;
 }
 .main-container .fg-pics, .main-container .fbla-pics {
   background-color: #42B983;
@@ -18,4 +20,20 @@
 .main-container .fg-desc, .main-container .fbla-desc {
   margin-top: 10vh;
   background-color: #42B983;
+}
+
+@media (max-width: 772px) {
+  .main-container .card-margin {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .main-container .card {
+    width: 75%;
+  }
+}
+@media (max-width: 511px) {
+  .main-container .card {
+    height: 90%;
+    width: 85%;
+  }
 }/*# sourceMappingURL=main-container.css.map */
