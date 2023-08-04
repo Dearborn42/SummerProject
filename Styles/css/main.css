@@ -77,4 +77,13 @@ nav button:hover {
 
 body {
   background-color: #808782;
+}
+
+.dark-mode nav {
+  background-color: #000;
+  color: #fff;
+}
+.dark-mode .main-container {
+  background-color: #202020;
+  color: #fff;
 }/*# sourceMappingURL=main.css.map */

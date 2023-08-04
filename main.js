@@ -11,3 +11,7 @@ $(".carousel-control-prev").on("click", ()=>{
     else i=2;
     $(".card-text").html(events[i]);
 })
+
+function toggleDMode(){
+    $("body").toggleClass("dark-mode");
+}
