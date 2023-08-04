@@ -8,6 +8,7 @@ nav a {
   margin-bottom: auto;
 }
 nav button {
+  transition: transform 0.5s ease;
   background-color: #808782;
   border: 3px solid #808782;
   border-radius: 10px;
@@ -16,4 +17,5 @@ nav button {
 }
 nav button:hover {
   border-color: #000;
+  transform: scale(1.1);
 }/*# sourceMappingURL=nav.css.map */
