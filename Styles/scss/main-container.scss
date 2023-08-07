@@ -5,6 +5,9 @@
     }
     .card-body{
         border-top: 2px solid #808782;
+        .font{
+            font-size: 16px;
+        }
     }
     .card{
         width: 50%;
@@ -24,6 +27,34 @@
         background-color: #FFD6AF;
         height: 75%;
         width: 25%;
+    }
+}
+
+@media (max-height: 800px) {
+    .main-container {
+        .card-body {
+            .font {
+                font-size: 12px;
+            }
+        }
+    }
+}
+@media (max-height: 580px) {
+    .main-container {
+        .card-body {
+            .font {
+                font-size: 10px;
+            }
+        }
+    }
+}
+@media (max-height: 400px) {
+    .main-container {
+        .card-body {
+            .font {
+                font-size: 6px;
+            }
+        }
     }
 }
 

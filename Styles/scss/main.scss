@@ -11,10 +11,21 @@ body{
 .dark-mode{
     nav{
         background-color: #000;
-        color: #fff;
+        button{
+            color: #fff;
+        }
     }
     .main-container{
         background-color: #202020;
         color: #fff;
+        .card{
+            border-color: #D89E5E;
+            background-color: #D89E5E;
+        }
+        .card-body{
+            .font{
+                color: white;
+            }
+        }
     }
 }

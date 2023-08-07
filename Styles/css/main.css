@@ -29,6 +29,9 @@ nav button:hover {
 .main-container .card-body {
   border-top: 2px solid #808782;
 }
+.main-container .card-body .font {
+  font-size: 16px;
+}
 .main-container .card {
   width: 50%;
   border: 2px solid #FFD6AF;
@@ -48,6 +51,21 @@ nav button:hover {
   width: 25%;
 }
 
+@media (max-height: 800px) {
+  .main-container .card-body .font {
+    font-size: 12px;
+  }
+}
+@media (max-height: 580px) {
+  .main-container .card-body .font {
+    font-size: 10px;
+  }
+}
+@media (max-height: 400px) {
+  .main-container .card-body .font {
+    font-size: 6px;
+  }
+}
 @media (max-width: 772px) {
   .main-container {
     flex-direction: column;
@@ -81,9 +99,18 @@ body {
 
 .dark-mode nav {
   background-color: #000;
+}
+.dark-mode nav button {
   color: #fff;
 }
 .dark-mode .main-container {
   background-color: #202020;
   color: #fff;
+}
+.dark-mode .main-container .card {
+  border-color: #D89E5E;
+  background-color: #D89E5E;
+}
+.dark-mode .main-container .card-body .font {
+  color: white;
 }/*# sourceMappingURL=main.css.map */

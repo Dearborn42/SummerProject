@@ -7,6 +7,9 @@
 .main-container .card-body {
   border-top: 2px solid #808782;
 }
+.main-container .card-body .font {
+  font-size: 16px;
+}
 .main-container .card {
   width: 50%;
   border: 2px solid #FFD6AF;
@@ -26,6 +29,21 @@
   width: 25%;
 }
 
+@media (max-height: 800px) {
+  .main-container .card-body .font {
+    font-size: 12px;
+  }
+}
+@media (max-height: 580px) {
+  .main-container .card-body .font {
+    font-size: 10px;
+  }
+}
+@media (max-height: 400px) {
+  .main-container .card-body .font {
+    font-size: 6px;
+  }
+}
 @media (max-width: 772px) {
   .main-container {
     flex-direction: column;
