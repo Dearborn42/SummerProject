@@ -22,11 +22,30 @@
         height: 75%;
         width: 50%;
     }
+    .fg-pics{
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
     .fg-desc, .fbla-desc{
         margin-top: 10vh;
         background-color: #FFD6AF;
         height: 75%;
         width: 25%;
+        font-size: 16px;
+    }
+    p{
+        padding: 4px;
+    }
+}
+
+@media (max-width: 310px){
+    .main-container{
+        .fg-desc,
+        .fbla-desc {
+            font-size: 8px;
+        }
     }
 }
 
@@ -56,6 +75,33 @@
             }
         }
     }
+}
+
+
+@media (max-height: 600px) {
+    .main-container{
+        .fg-desc,
+        .fbla-desc {
+            font-size: 12px;
+        }
+    }
+}
+@media (max-height: 550px) {
+    .main-container {
+        .fg-desc,
+        .fbla-desc {
+            font-size: 10px;
+        }
+    }
+}
+@media (max-width: 772px) {
+    .main-container {
+    
+            .fg-desc,
+            .fbla-desc {
+                font-size: 12px;
+            }
+        }
 }
 
 @media (max-width: 772px) {
